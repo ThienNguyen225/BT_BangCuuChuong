@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bảng cửu chương</title>
+</head>
+<body>
+    <script>
+        document.write("<table border=1 width=100%>")
+        var j;
+        for (j = 1; j <= 10; j++){
+            document.write("<tr>")
+            var i;
+            for (i = 2; i <= 10; i++){
+                var Ketqua = j*i;
+                document.write("<td>" +i+ "*" +j+ "=" +Ketqua+"</td>");
+            }document.write("</tr>")
+        }document.write("</table>")
+    </script>
+</body>
+</html>
